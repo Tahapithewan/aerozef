@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav from "../Navbar/Nav.css"
+import "../Navbar/Nav.css"
 import { NavLink } from 'react-router-dom'
 const Navbar = () => {
 
@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <>
     <div className="navbar navbar-expand-md navbar-dark bg-dark">
-    <button className="openbtn bg-dark" onClick={openNav}>&#9776; </button>
+        <button className="openbtn bg-dark" onClick={openNav}>&#9776; </button>
         <NavLink className="navbar-brand" to="/"> <h3 style={{float : 'left'}}>42</h3></NavLink>
         <NavLink className="navbar-brand" to="/"><span style={{}}>Berlin</span></NavLink>
         <button className="navbar-toggler" data-toggle="collapse" data-target="#NavId" >
@@ -38,20 +38,14 @@ const Navbar = () => {
             </ul>
         </div>
     </div>
-    {/* <div className="NavBar">
-        <div className="Brand">
-            <div className="forty">4</div>
-            <div className="two">2</div>
-        </div>
-    </div> */}
 
     {/* sidebar */}
+    
     <div id="mySidepanel" className="sidepanel">
         <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>&times;</a>
-        <NavLink to="applicants">APPLICANTS</NavLink>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
+        <NavLink to="applicants">Applicants</NavLink>
+        <NavLink to="services">Services</NavLink>
+        <NavLink to="settings">Settings</NavLink>
     </div>
     </>
   )
