@@ -14,7 +14,7 @@ const Slider = () => {
       <div className="container" style={{position:"absolute",bottom:"0",left:"0",right:"0",padding:"50px"}}>
         <h1>Example Headlines</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nulla rerum sed cumque
-           mollitia expedita ratione repellendus voluptatem suscipit voluptates, cupiditate aut libero
+           mollitia expedita ratione Taha voluptatem suscipit voluptates, cupiditate aut libero
            modi debitis rem nobis fuga deleniti aspernatur?</p>
            <a href="#" className="btn btn-lg btn-primary">Dabao</a>
       </div>
@@ -23,7 +23,7 @@ const Slider = () => {
       <div className="container" style={{position:"absolute",bottom:"0",left:"0",right:"0",padding:"50px"}}>
         <h1>Example Headlines</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nulla rerum sed cumque
-           mollitia expedita ratione repellendus voluptatem suscipit voluptates, cupiditate aut libero
+           mollitia expedita ratione Burhan voluptatem suscipit voluptates, cupiditate aut libero
            modi debitis rem nobis fuga deleniti aspernatur?</p>
            <a href="#" className="btn btn-lg btn-primary">Dabao</a>
       </div>
@@ -32,7 +32,7 @@ const Slider = () => {
       <div className="container" style={{position:"absolute",bottom:"0",left:"0",right:"0",padding:"50px"}}>
         <h1>Example Headlines</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nulla rerum sed cumque
-           mollitia expedita ratione repellendus voluptatem suscipit voluptates, cupiditate aut libero
+           mollitia expedita ratione Husain voluptatem suscipit voluptates, cupiditate aut libero
            modi debitis rem nobis fuga deleniti aspernatur?</p>
            <a href="#" className="btn btn-lg btn-primary">Dabao</a>
       </div>
