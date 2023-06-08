@@ -24,7 +24,7 @@ const Profile = () => {
                                 </div>
                                 <div className="card-body bg-light">
                                     {/* <h3>{item.image}</h3> */}
-                                    <img height={"250px"} src={item.image} alt="Not Found" />
+                                    <img height={"250px"} src={item.image} className='img-thumbnail img-responsive img-rounded' alt="Not Found" />
                                     <h1>{item.heading}</h1>
                                     <h3>{item.description}</h3>
                                 </div>
@@ -32,12 +32,11 @@ const Profile = () => {
                         </div>
                     )
                 })  
-            }
-            
+            }         
         </div>
     </div>
     </>
   )
 }
 
-export default Profile
+export default Profile;
