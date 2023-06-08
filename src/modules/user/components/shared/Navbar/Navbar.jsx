@@ -44,7 +44,7 @@ const Navbar = () => {
     <div id="mySidepanel" className="sidepanel">
         <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>&times;</a>
         <NavLink to="applicants">Applicants</NavLink>
-        <NavLink to="services">Services</NavLink>
+        <NavLink to="student">Student</NavLink>
         <NavLink to="settings">Settings</NavLink>
     </div>
     </>

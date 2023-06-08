@@ -26,7 +26,6 @@ const Applicants = () => {
     })
   return (
     <>
-    <Navbar />
     <div className="container my-5">
         <form onSubmit={handleSubmit}>
         <div className="row">
