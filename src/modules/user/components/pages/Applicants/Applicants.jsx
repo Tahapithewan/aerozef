@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { useFormik } from 'formik'
 import Navbar from '../../shared/Navbar/Navbar'
 import axios from "axios"
+import './Applicants.css'
 
 
 const Applicants = () => {
